@@ -1,0 +1,53 @@
+# Environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+**/!.env.example
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+.npm/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+venv/
+.venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+coverage.xml
+nosetests.xml
+coverage/
+*.cover
+*.py,cover
+.hypothesis/
+
+# Logs
+*.log
+
+# IDEs / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Databases
+*.sqlite
+*.sqlite3
+
+# Project specific
+backend/test_voxmentor.db
+frontend/.eslintcache
